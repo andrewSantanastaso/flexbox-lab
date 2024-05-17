@@ -11,6 +11,8 @@
   nav {
     background-color: white;
     padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
   }
   
   p {
@@ -22,6 +24,10 @@
     background-color: black;
     color: white;
     padding: 24px 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
   
   h1,
@@ -51,6 +57,9 @@
   main {
     background-color: white;
     padding: 32px 72px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   
   nav button {
@@ -71,15 +80,22 @@
   
   .card-footer {
     font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
   }
   
   .card-footer * {
     margin-top: 8px;
+    
   }
   
   #subnav {
     padding: 32px 72px 0;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
   }
   
   #subnav button {
@@ -96,3 +112,22 @@
     padding: 6px 15px;
   }
   
+  #destinations {
+    display: flex;
+    align-items: center;
+    gap:15px
+  }
+
+  #actions{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  #trending{
+    display: flex;
+    align-items: center;
+    gap:15px
+  }
+
+ 
