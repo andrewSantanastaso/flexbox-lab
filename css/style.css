@@ -58,8 +58,10 @@
     background-color: white;
     padding: 32px 72px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    align-content: center;
+    gap: 25px;
   }
   
   nav button {
